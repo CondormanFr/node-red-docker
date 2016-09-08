@@ -9,11 +9,11 @@ RUN mkdir /data
 WORKDIR /usr/src/node-red
 
 # Add node-red user so we aren't running as root.
-RUN useradd --home-dir /usr/src/node-red --no-create-home node-red \
-    && chown -R node-red:node-red /data \
-    && chown -R node-red:node-red /usr/src/node-red
+#RUN useradd --home-dir /usr/src/node-red --no-create-home node-red \
+#    && chown -R node-red:node-red /data \
+#    && chown -R node-red:node-red /usr/src/node-red
 
-USER node-red
+#USER node-red
 
 RUN npm install --unsafe-perm node-red-node-serialport
 
