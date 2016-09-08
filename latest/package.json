@@ -29,6 +29,26 @@
         "node-red-node-base64": "*",
         "node-red-node-suncalc": "*",
         "node-red-node-random": "*"
+        "node-red-node-serialport": "*",
+        "node-red-node-mysql": "*",
+        "node-red-newtifrypro": "*",
+        "noreowfs": "*",
+        "node-red-contrib-parallel-iterator": "*",
+        "node-red-contrib-route-parser": "*",
+        "node-red-contrib-splitter": "*",
+        "node-red-contrib-yamaha": "*",
+        "node-red-contrib-npm": "*",
+        "node-red-node-timeswitch": "*",
+        "ttb-node-owntracks": "*",
+        "node-red-node-nma": "*",
+        "node-red-contrib-ftp": "*",
+        "node-red-contrib-rfxcom": "*",
+        "node-red-contrib-sql": "*",
+        "node-red-node-sqlite": "*",
+        "node-red-contrib-owfs": "*",
+        "node-red-node-emoncms": "*",
+        "node-red-contrib-influxdb": "*",
+        "node-red-contrib-collector": "*"
     },
     "engines": {
         "node": "4.*.*"
