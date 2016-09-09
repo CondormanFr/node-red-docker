@@ -49,7 +49,8 @@
         "node-red-node-emoncms": "*",
         "node-red-contrib-influxdb": "*",
         "node-red-contrib-collector": "*",
-        "node-red-contrib-moment" : "*"
+        "node-red-contrib-moment2" : "*"
+        
     },
     "engines": {
         "node": "4.*.*"
