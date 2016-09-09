@@ -48,7 +48,8 @@
         "node-red-contrib-owfs": "*",
         "node-red-node-emoncms": "*",
         "node-red-contrib-influxdb": "*",
-        "node-red-contrib-collector": "*"
+        "node-red-contrib-collector": "*",
+        "node-red-contrib-moment" : "*"
     },
     "engines": {
         "node": "4.*.*"
