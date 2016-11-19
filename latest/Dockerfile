@@ -15,7 +15,7 @@ WORKDIR /usr/src/node-red
 
 #USER node-red
 
-#RUN npm install --unsafe-perm node-red-node-serialport
+RUN npm install --unsafe-perm node-red-node-serialport
 
 RUN apt-get update
 RUN apt-get -y install libpcap-dev
